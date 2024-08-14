@@ -1,0 +1,384 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    height: 100vh;
+    width: 100vw;
+    background-image:url("/assests/sky--purple-kracked.jpg");
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+
+}
+.MyAccount{
+    display: flex;
+    justify-content: right;
+    padding-top: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    font-size: larger;
+    /* background: rgba(red, green, blue, alpha);
+    border-radius: 5px; */
+}
+
+.MyAccount a{
+    color: aliceblue;
+    text-decoration: none;
+    
+}
+.hashtag{
+    
+    color: yellow;
+    font-size: 50px;
+    padding-top: 50px;
+    font-family:"out1";
+}
+
+
+.num{
+    /* display: flex; */
+  font-size: 200px;
+    color:yellow;
+    font-family:"out1";
+    padding-top: 0px;
+}
+#out{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+
+}
+.day{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    padding-top: 25px;
+}
+.thirty{
+    justify-content: center;
+    color: yellow;
+
+}
+.dayvanilla{
+    justify-content: center;
+    
+}
+.js{
+    color:yellow;
+    font-family: 'Times New Roman';
+}
+@font-face {
+    font-family:"out1";
+    src: url(../assests/againts-webfont.cbe21f30.woff2) format("woff2");
+}
+
+.JavaScript{
+     /* display: flex;  */
+    font-size: 60px;
+    color: aliceblue;
+    padding-top: 20px;
+    font-family:"out1";
+    letter-spacing: 15px;
+
+}
+
+
+.button-1
+{
+    padding: 3px;
+    border-radius: 5px;
+    background-color: rgba(197, 197, 197, 0.33);
+    color: white;
+}
+.work{
+    color: aliceblue;
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    padding-top: 25px;
+}
+.num1{
+    color: yellow;
+}
+.num2{
+    color: yellow;
+}
+.num3{
+    color: yellow;
+}
+.build{
+    color: white;
+}
+.things{
+    color: white;
+}
+.in{
+    color: white;
+}
+.days{
+    color: white;
+}
+.with{
+    color: white;
+}
+.tutorials{
+    color: white;
+}
+.day-2{
+    color: white;
+    font-size: 22px;
+    justify-content: center;
+    display: flex;
+    padding-top: 60px;
+}
+.no1{
+    color: yellow;
+}
+.no2{
+    color: yellow;
+}
+.no3{
+    color: yellow;
+}
+.no4
+{
+    color: yellow;
+}
+.cross1{
+    font-size: 15px;
+    padding: 3px;
+    }
+.cross2{
+    font-size:15px;
+    padding: 3px;
+}    
+.cross3{
+    font-size: 15px;
+    padding: 3px;
+}
+
+
+
+
+/* .MyAccount */
+.nav{
+    margin:0;
+    font-family:"poppins",sans-serif;
+    background-color: blanchedalmond;
+    }
+/* .logo{
+    font-weight:bold;
+    font-size:larger;
+    align-content: center;
+    border-bottom: yellow;
+} */
+.logo img{
+    
+    /* height: 70px;
+    width: 100px;
+    border-radius: 50%;
+    padding-top: 50px;
+} */
+width: 100px;
+height: auto;
+margin-right: 10px;
+padding-top: 55px;
+
+}
+.nav-main{
+    background-color:#193549;
+    display: flex;
+    align-content: center;
+   height: 114px;
+margin-bottom: 2rem;
+border-bottom: solid 7px rgb(238, 236, 102);
+color: white;
+font-family: cursive;
+/* justify-content: start; */
+padding-bottom: 40px;
+}
+
+/* * {
+    scrollbar-width: thin;
+    scrollbar-color: #fec600 #000;
+} */
+ .sign{
+    font-size: 25px;
+    padding-top: 30px;
+    line-height: 1.7;
+    font-family: out2;
+    }
+@font-face {
+    font-family:out2;
+    src: url(../assests/OperatorMono-Book_Web.ba2eda5e.woff2) format("woff2");
+}    
+ .nav-main-p{
+    padding: 10px;
+    width: 1170px;
+    margin-left:65px;
+  height: 50px;
+  border: 1px solid rgb(71, 64, 64);
+  background-color:rgb(235, 176, 196);
+}
+.mediumcolumn1{
+ display: inline-block;
+  margin-top: 5rem; 
+  margin-left: 4rem;
+  width: 380px;
+  height: 260px;
+  padding-top: 20px;
+  border: 1px solid black;
+  background-color: white;
+}
+.signin{
+    font-size: 40px;
+    padding: 20px;
+    font-family: out2;
+}
+.email1{
+/* -webkit-text-size-adjust: 100%;
+-webkit-font-smoothing: antialiased; */
+box-sizing: inherit;
+display: block;
+/* margin-bottom: 200px; */
+font-size:1rem;
+font-family: out2;
+line-height: 1.8rem;
+color: #0a0a0a;
+}
+.mail{
+    margin-left: 18px;
+    
+    
+}
+.pw{
+    box-sizing: inherit;
+    display: block;
+    padding-top: 20px;
+    font-size: 1rem;
+    font-family: out2;
+    line-height: 1.8rem;
+    color: #0a0a0a;
+}
+.pass{
+    margin-left: 18px;
+}
+.submit{
+-webkit-text-size-adjust: 100%;
+-webkit-font-smoothing: antialiased;
+box-sizing: inherit;
+scrollbar-width: thin;
+scrollbar-color: #fec600 #000;
+color: inherit;
+font: inherit;
+line-height:1.8rem;
+-webkit-appearance: button;
+cursor: pointer;
+font-family: out2;
+margin-left: 18px;
+}
+.mediumcolumn2{
+    display: inline-block;
+    margin-top: 2rem;
+    margin-left: 2.40rem;
+    
+     width: 350px;
+     height: 500px;
+     border: 1px solid black;
+     background-color: white;
+}
+.signup{
+    font-size: 40px;
+    padding: 20px;
+    font-family: out2;
+}
+.email2{
+    box-sizing: inherit;
+    display: block;
+padding-top: 20px;
+font-size:1rem;
+font-family: out2;
+line-height: 1.8rem;
+color: #0a0a0a;
+}
+.mail1{
+    margin-left: 18px;
+}
+.pass1{
+    margin-left: 18px;
+}
+.pw1{
+    box-sizing: inherit;
+    display: block;
+    padding-top: 20px;
+    font-size: 1rem;
+    font-family: out2;
+    line-height: 1.8rem;
+    color: #0a0a0a;
+}
+.confirm{
+    box-sizing: inherit;
+    display: block;
+    padding-top: 20px;
+    font-size: 1rem;
+    font-family: out2;
+    line-height: 1.8rem;
+    color: #0a0a0a;
+    margin-left: 18px;
+}
+.con{
+    margin-left: 18px;
+}
+.explain{
+    font-size: 20px;
+    font-family: out2;
+    margin-top: 15px;
+    margin-left: 18px;
+    line-height: 1.8rem;
+}
+.button-2
+{
+    padding: 3px;
+    border-radius: 5px;
+    /* background-color: rgba(197, 197, 197, 0.33); */
+    margin-left: 18px;
+    margin-top: 20px;
+    font-family: out2;
+}
+.mediumcolumn3{
+    display: inline-block;
+     margin-top: 0rem; 
+     margin-left: 55rem;
+     
+     width: 380px;
+     height: 260px;
+     padding-top: 20px;
+     border: 1px solid black;
+     background-color: white;
+   }
+   .reset{
+    font-size: 40px;
+    padding: 20px;
+    font-family: out2;
+}
+.email3{
+    box-sizing: inherit;
+display: block;
+padding-top: 20px;
+font-size:1rem;
+font-family: out2;
+line-height: 1.8rem;
+color: #0a0a0a;
+}
+.mail2{
+    margin-left: 18px;
+}
+.explain1{
+    font-family: out2;
+    margin-left: 18px;
+    font-size: 20px;
+    line-height: 1.8rem;
+}
