@@ -1,0 +1,9 @@
+Make Variables
+firstname
+lastname
+address
+phonenumbers---> const
+and show the conept of global and local scoping using var
+and let
+also show that constants cannot be changed whatsoever
+ 

@@ -188,6 +188,9 @@ margin-right: 10px;
 padding-top: 55px;
 
 }
+.course1{
+    margin-top: 100px;
+}
 .nav-main{
     background-color:#193549;
     display: flex;
@@ -223,20 +226,37 @@ padding-bottom: 40px;
   border: 1px solid rgb(71, 64, 64);
   background-color:rgb(235, 176, 196);
 }
+.medium-column{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
 .mediumcolumn1{
- display: inline-block;
-  margin-top: 5rem; 
+ 
+  margin-top: 40px;
   margin-left: 4rem;
-  width: 380px;
+  width: 320px;
   height: 260px;
-  padding-top: 20px;
+  
   border: 1px solid black;
   background-color: white;
+}
+.email-input1
+{
+    height: 35px;
+    width: 270px;
+    margin-left: 18px;
+}
+.pass-input1{
+    height: 35px;
+    width: 270px;
+    margin-left: 18px;
 }
 .signin{
     font-size: 40px;
     padding: 20px;
     font-family: out2;
+    color: black;
 }
 .email1{
 /* -webkit-text-size-adjust: 100%;
@@ -249,11 +269,11 @@ font-family: out2;
 line-height: 1.8rem;
 color: #0a0a0a;
 }
-.mail{
+/* .mail{
     margin-left: 18px;
     
     
-}
+} */
 .pw{
     box-sizing: inherit;
     display: block;
@@ -263,29 +283,23 @@ color: #0a0a0a;
     line-height: 1.8rem;
     color: #0a0a0a;
 }
-.pass{
+/* .pass{
     margin-left: 18px;
+} */
+.button-1{
+    padding: 3px;
+    border-radius: 5px;
+    /* background-color: rgba(197, 197, 197, 0.33); */
+    margin-left: 18px;
+    margin-top: 20px;
+    font-family: out2;
+   
 }
-.submit{
--webkit-text-size-adjust: 100%;
--webkit-font-smoothing: antialiased;
-box-sizing: inherit;
-scrollbar-width: thin;
-scrollbar-color: #fec600 #000;
-color: inherit;
-font: inherit;
-line-height:1.8rem;
--webkit-appearance: button;
-cursor: pointer;
-font-family: out2;
-margin-left: 18px;
-}
+
 .mediumcolumn2{
-    display: inline-block;
-    margin-top: 2rem;
-    margin-left: 2.40rem;
     
-     width: 350px;
+    margin-top: 2rem;
+     width: 330px;
      height: 500px;
      border: 1px solid black;
      background-color: white;
@@ -295,6 +309,22 @@ margin-left: 18px;
     padding: 20px;
     font-family: out2;
 }
+.email-input2
+{
+    height: 35px;
+    width: 270px;
+    margin-left: 18px;
+}
+.pass-input2{
+    height:35px;
+    width: 270px;
+    margin-left: 18px;
+    }
+    .confirm1{
+        height: 35px;
+        width: 270px;
+        margin-left: 18px;
+    }
 .email2{
     box-sizing: inherit;
     display: block;
@@ -304,11 +334,12 @@ font-family: out2;
 line-height: 1.8rem;
 color: #0a0a0a;
 }
-.mail1{
+/* .mail1{
     margin-left: 18px;
-}
-.pass1{
+} */
+.pass1-input1{
     margin-left: 18px;
+    width: 100px;
 }
 .pw1{
     box-sizing: inherit;
@@ -329,9 +360,9 @@ color: #0a0a0a;
     color: #0a0a0a;
     margin-left: 18px;
 }
-.con{
+/* .con{
     margin-left: 18px;
-}
+} */
 .explain{
     font-size: 20px;
     font-family: out2;
@@ -349,13 +380,13 @@ color: #0a0a0a;
     font-family: out2;
 }
 .mediumcolumn3{
-    display: inline-block;
-     margin-top: 0rem; 
-     margin-left: 55rem;
-     
+
+     /* margin-top: 0rem; 
+     margin-left: 55rem; */
+     margin-top: 30px;
      width: 380px;
      height: 260px;
-     padding-top: 20px;
+     margin-right: 45px;
      border: 1px solid black;
      background-color: white;
    }
@@ -373,12 +404,26 @@ font-family: out2;
 line-height: 1.8rem;
 color: #0a0a0a;
 }
-.mail2{
+.email-input3{
     margin-left: 18px;
+    height: 35px;
+    width: 270px;
 }
+
 .explain1{
     font-family: out2;
     margin-left: 18px;
     font-size: 20px;
     line-height: 1.8rem;
 }
+.button-3{
+    padding: 3px;
+    border-radius: 5px;
+    /* background-color: rgba(197, 197, 197, 0.33); */
+    margin-left: 18px;
+    margin-top: 20px;
+    font-family: out2;
+}
+
+
+
