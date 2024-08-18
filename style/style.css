@@ -194,6 +194,9 @@ padding-top: 55px;
 .course1{
     margin-top: 100px;
 }
+    .course1:hover{
+  color: yellow;
+}
 .nav-main{
     background-color:#193549;
     display: flex;
@@ -216,6 +219,10 @@ padding-bottom: 40px;
     padding-top: 30px;
     line-height: 1.7;
     font-family: out2;
+    }
+    .sign:hover{
+        color: slategray;
+        text-decoration: underline;
     }
 @font-face {
     font-family:out2;
@@ -297,6 +304,10 @@ color: #0a0a0a;
     margin-top: 20px;
     font-family: out2;
    
+}
+    .button-1:hover{
+    color: red;
+    font-family: out2;
 }
 
 .mediumcolumn2{
@@ -382,6 +393,11 @@ color: #0a0a0a;
     margin-top: 20px;
     font-family: out2;
 }
+    .button-2:hover{
+    color: red;
+    font-family: out2;
+    scale: 1.20;
+}
 .mediumcolumn3{
 
      /* margin-top: 0rem; 
@@ -427,6 +443,13 @@ color: #0a0a0a;
     margin-top: 20px;
     font-family: out2;
 }
+    .button-3:hover{
+    color: red;
+    font-family: out2;
+    scale: 1.20;
+}
+
+
 
 
 
