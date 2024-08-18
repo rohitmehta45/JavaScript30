@@ -27,6 +27,9 @@
     text-decoration: none;
     
 }
+.buttom-1:hover{
+    scale:1.20;
+    color:red;
 .hashtag{
     
     color: yellow;
